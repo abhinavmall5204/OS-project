@@ -1,9 +1,6 @@
 #include<stdio.h> 
 #define N 10  
-//pid is process id
-//pp is process priority
-//bt is process burst time
-//at is process arrival time
+
 typedef struct 
 { 
       int pid, at,bt,pp;
